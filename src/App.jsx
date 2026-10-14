@@ -99,6 +99,13 @@ function App() {
           <p>Tell us about your business and what you want to build.</p>
           <a className="button-primary" href="mailto:dayannkulu260@gmail.com?subject=Website%20project%20enquiry">
             Get in touch ↗
+            <a
+  href="https://wa.me/27656492081?text=Hi%2C%20I%27m%20interested%20in%20a%20website"
+  target="_blank"
+  rel="noreferrer"
+>
+  Chat on WhatsApp
+</a>
           </a>
           <span className="contact-note">dayannkulu260@gmail.com.</span>
         </section>
