@@ -100,7 +100,7 @@ function App() {
           <a className="button-primary" href="mailto:dayannkulu260@gmail.com?subject=Website%20project%20enquiry">
             Get in touch ↗
           </a>
-          <span className="contact-note">Replace dayannkulu260@gmail.com with your business email.</span>
+          <span className="contact-note">dayannkulu260@gmail.com.</span>
         </section>
       </main>
 
