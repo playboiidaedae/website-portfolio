@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #f4f1e9;
+  background: #11120f;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+  font-optical-sizing: auto;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+a { color: inherit; text-decoration: none; }
+.site { overflow: hidden; }
+.navbar {
+  height: 88px;
+  padding: 0 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff19;
+}
+.brand { font-weight: 700; letter-spacing: -1px; font-size: 18px; }
+.brand span { color: #c5a982; }
+.nav-links { display: flex; align-items: center; gap: 34px; font-size: 12px; }
+.nav-links a:not(.nav-cta) { color: #b5b5ad; }
+.nav-cta { border: 1px solid #ffffff42; padding: 12px 18px; border-radius: 3px; }
+
+.hero {
+  min-height: 610px;
+  padding: 125px 10% 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: radial-gradient(ellipse at 80% 30%, #303026 0%, #11120f 53%);
+}
+.eyebrow, .kicker { font-size: 10px; letter-spacing: 2px; color: #c5a982; }
+.status-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: #c5a982; margin-right: 10px; }
+.hero h1 { font-size: clamp(42px, 6.5vw, 86px); letter-spacing: -5px; line-height: 1.08; margin: 28px 0 22px; font-weight: 500; }
+.hero h1 span { font-family: 'Playfair Display', serif; color: #c5a982; font-style: italic; font-weight: 500; }
+.intro { max-width: 490px; color: #aaa99f; font-size: 14px; line-height: 1.9; }
+.hero-actions { display: flex; gap: 22px; align-items: center; margin-top: 24px; flex-wrap: wrap; }
+.button-primary { display: inline-block; padding: 16px 23px; background: #c5a982; color: #151510; font-size: 12px; font-weight: 700; border-radius: 2px; }
+.button-primary:hover { background: #e0c9a7; }
+.button-secondary { font-size: 12px; color: #c6c4ba; }
+.hero-bottom { margin-top: auto; padding-top: 85px; width: 100%; display: flex; justify-content: space-between; color: #77776e; font-size: 9px; letter-spacing: 1.5px; }
+
+.work { padding: 110px 7%; background: #f0eee7; color: #191a16; }
+.section-heading { display: flex; align-items: end; justify-content: space-between; margin-bottom: 40px; }
+.section-heading h2, .services h2, .contact h2 { font-size: clamp(34px, 4vw, 54px); font-weight: 500; letter-spacing: -2px; line-height: 1.18; margin: 18px 0 0; }
+.section-note { font-size: 11px; color: #77776e; }
+.project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.project-art { aspect-ratio: 0.82; padding: 25px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.restaurant-art { background: radial-gradient(ellipse at 50% 55%, #786044, #30271f 72%); }
+.art-label, .art-caption, .beauty-small, .beauty-caption, .architecture-label, .architecture-caption { font-size: 8px; letter-spacing: 3px; }
+.restaurant-title { font-family: 'Playfair Display', serif; font-size: clamp(35px, 5vw, 65px); line-height: .95; margin: 50px 0; }
+.beauty-art { background: radial-gradient(ellipse at 50% 45%, #d8b6a4, #997365 75%); color: #3b2925; }
+.beauty-title { font-family: 'Playfair Display', serif; font-size: clamp(32px, 4vw, 55px); letter-spacing: 2px; margin: 18px 0; }
+.architecture-art { background: linear-gradient(140deg, #a9aaa0, #5c625b); color: #1c221d; }
+.architecture-title { font-family: 'Playfair Display', serif; font-size: clamp(25px, 3vw, 43px); line-height: 1.1; margin: 55px 0; letter-spacing: -1px; }
+.project-info { display: flex; justify-content: space-between; align-items: center; padding: 18px 0; }
+.project-info h3 { font-size: 14px; margin: 0 0 6px; }
+.project-info p { font-size: 11px; color: #77776e; margin: 0; }
+.disclaimer { font-size: 10px; color: #77776e; margin-top: 20px; }
+
+.services { padding: 110px 10%; background: #171813; }
+.services h2 { margin-bottom: 55px; }
+.services h2 em, .contact h2 em { font-family: 'Playfair Display', serif; font-weight: 500; color: #c5a982; }
+.service-list > div { display: grid; grid-template-columns: 55px 1fr 20px; gap: 15px; align-items: center; padding: 23px 0; border-top: 1px solid #ffffff25; }
+.service-list > div:last-child { border-bottom: 1px solid #ffffff25; }
+.service-list > div > span { font-size: 11px; color: #c5a982; }
+.service-list h3 { font-size: 15px; font-weight: 400; margin: 0; }
+
+.contact { text-align: center; padding: 120px 20px; background: radial-gradient(ellipse at 50% 100%, #302c20, #11120f 70%); }
+.contact h2 { margin: 22px 0; }
+.contact p { color: #aaa99f; font-size: 13px; margin-bottom: 28px; }
+.contact-note { display: block; color: #77776e; font-size: 10px; margin-top: 15px; }
+footer { display: flex; justify-content: space-between; align-items: center; gap: 15px; padding: 30px 7%; border-top: 1px solid #ffffff20; color: #99998f; font-size: 10px; }
+footer .brand { color: #f4f1e9; }
+
+@media (max-width: 700px) {
+  .navbar { height: 72px; padding: 0 5%; }
+  .brand { font-size: 15px; }
+  .nav-links { gap: 15px; }
+  .nav-links > a:first-child { display: none; }
+  .nav-cta { padding: 10px 12px; }
+  .hero { min-height: 570px; padding: 100px 7% 24px; }
+  .hero h1 { letter-spacing: -2.5px; }
+  .hero-bottom { font-size: 7px; letter-spacing: .8px; }
+  .work { padding: 75px 6%; }
+  .project-grid { grid-template-columns: 1fr; gap: 15px; }
+  .project-art { aspect-ratio: 1.15; }
+  .restaurant-title { font-size: 60px; }
+  .beauty-title { font-size: 50px; }
+  .architecture-title { font-size: 40px; }
+  .services { padding: 80px 7%; }
+  .services h2, .contact h2 { letter-spacing: -1px; }
+  .service-list h3 { font-size: 13px; }
+  footer { flex-wrap: wrap; }
+}
