@@ -97,10 +97,10 @@ function App() {
           <span className="kicker">HAVE A PROJECT IN MIND?</span>
           <h2>Let's make something<br /><em>worth looking at.</em></h2>
           <p>Tell us about your business and what you want to build.</p>
-          <a className="button-primary" href="mailto:hello@example.com?subject=Website%20project%20enquiry">
+          <a className="button-primary" href="mailto:dayannkulu260@gmail.com?subject=Website%20project%20enquiry">
             Get in touch ↗
           </a>
-          <span className="contact-note">Replace hello@example.com with your business email.</span>
+          <span className="contact-note">Replace dayannkulu260@gmail.com with your business email.</span>
         </section>
       </main>
 
